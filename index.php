@@ -84,6 +84,8 @@
     <script type="text/javascript">
       $("#submit").click(function(){
         
+        var action = $("#action").val();
+        
         $.ajax({
           url       : "insert.php",
           type      : "POST",
